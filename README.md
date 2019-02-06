@@ -62,25 +62,25 @@ $ git submodule update
 ### Build
 
 ```
-$ flatpak-builder "build" "com.github.wjaguar.mtpaint.yaml" --force-clean --install-deps-from="flathub"
+$ flatpak-builder "build" "com.github.wjaguar.mtPaint.yaml" --force-clean --install-deps-from="flathub"
 ```
 
 ### Test
 
 ```
-$ flatpak-builder --run "build" "com.github.wjaguar.mtpaint.yaml" "sh"
+$ flatpak-builder --run "build" "com.github.wjaguar.mtPaint.yaml" "sh"
 ```
 
 ### Test run
 
 ```
-$ flatpak-builder --run "build" "com.github.wjaguar.mtpaint.yaml" "mtpaint"
+$ flatpak-builder --run "build" "com.github.wjaguar.mtPaint.yaml" "mtpaint"
 ```
 
 ### Install
 
 ```
-$ flatpak-builder --repo="repo" --force-clean "build" "com.github.wjaguar.mtpaint.yaml"
+$ flatpak-builder --repo="repo" --force-clean "build" "com.github.wjaguar.mtPaint.yaml"
 ```
 
 ```
@@ -88,19 +88,19 @@ $ flatpak --user remote-add --no-gpg-verify "mtpaint" "repo"
 ```
 
 ```
-$ flatpak --user install "mtpaint" "com.github.wjaguar.mtpaint"
+$ flatpak --user install "mtpaint" "com.github.wjaguar.mtPaint"
 ```
 
 ### Run
 
 ```
-$ flatpak run "com.github.wjaguar.mtpaint"
+$ flatpak run "com.github.wjaguar.mtPaint"
 ```
 
 ### Uninstall
 
 ```
-$ flatpak --user uninstall "com.github.wjaguar.mtpaint"
+$ flatpak --user uninstall "com.github.wjaguar.mtPaint"
 ```
 
 ```
